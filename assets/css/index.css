@@ -1,0 +1,15 @@
+body {
+    min-height: 2000px;
+    padding-top: 70px;
+}
+
+.list-group-item {
+    text-align: center;
+}
+.menu {
+    background: #222222;
+}
+
+#sidenav {
+    position: fixed;
+}
