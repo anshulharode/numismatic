@@ -1,5 +1,6 @@
 body {
     padding-top: 70px;
+    overflow-x: hidden;
 }
 
 .list-group-item {
@@ -11,10 +12,4 @@ body {
 
 #sidenav {
     position: fixed;
-}
-
-.center-block {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
 }
