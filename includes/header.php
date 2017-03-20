@@ -27,15 +27,15 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
+                <li class="<?php if($current_page =='home'){echo 'active';}?>"><a href="/numismatic/">Home</a></li>
                 <li><a href="#">All Products</a></li>
                 <li><a href="#">My Account</a></li>
-                <li><a href="#">Shopping Cart</a></li>
+                <li><a href="#">Shopping Cart <span class="badge">3</span></a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#search">Search</a></li>
-                <li><a href="login.php">Login</a></li>
-                <li><a href="signup.php">Sign Up</a></li>
+                <li class="<?php if($current_page =='login'){echo 'active';}?>"><a href="login.php">Login</a></li>
+                <li class="<?php if($current_page =='signup'){echo 'active';}?>"><a href="signup.php">Sign Up</a></li>
             </ul>
         </div>
         <!--/.nav-collapse -->

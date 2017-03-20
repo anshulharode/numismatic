@@ -1,10 +1,11 @@
 <?php
+    $current_page = 'home';
   include_once "includes/header.php";
 ?>
 
 
 <div class="row">
-    <ul class="list-group col-md-3" id="sidenav">
+    <ul class="list-group col-md-2" id="sidenav">
         <li class="list-group-item menu"> <i class="fa fa-tags" aria-hidden="true"></i> Categories</li>
         <li class="list-group-item">
             <a href="#">Coins</a>
